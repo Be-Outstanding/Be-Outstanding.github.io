@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0em;
+    margin: 0;
+}
+
+.topnav {
+    background-color: #00b5a5;
+    overflow: hidden;
+    height: 50px;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+    margin-right: 150px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #00b5a5;
+    color: #00b5a5;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #00b5a5;
+    color: white;
+}
+
+.main {
+    padding-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+
+.logo {
+    max-width:100%;
+    height:auto;
+}
