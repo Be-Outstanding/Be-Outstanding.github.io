@@ -39,14 +39,26 @@ body {
     color: white;
 }
 
-.main {
+.logo {
     padding-top: 0px;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 150px;
 }
 
-.logo {
+.logo img {
     max-width:100%;
     height:auto;
+}
+
+.beta {
+    width: 180px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    color: rgb(66, 24, 85);
+    position: absolute;
 }
